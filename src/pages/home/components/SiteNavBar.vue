@@ -85,8 +85,7 @@ function handleDragEnd(e: any) {
 
 <style lang="scss" scoped>
 .nav {
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 
   &::-webkit-scrollbar {
     display: none;

@@ -5,7 +5,7 @@ const searchList: SettingItemChildren<Search> = [
   {
     name: () => t('settings.searchEngine.bing'),
     key: 'Bing',
-    value: { url: 'https://www.bing.com/search', wd: 'q', favicon: '/svg/bing.svg', s: 'bi' },
+    value: { url: 'https://www.bing.com/search', wd: 'form=&q', favicon: '/svg/bing.svg', s: 'bi' },
   },
   {
     name: () => t('settings.searchEngine.baidu'),
